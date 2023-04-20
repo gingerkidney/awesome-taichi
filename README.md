@@ -4,13 +4,13 @@
 <p align="center"> 
 <a href="https://github.com/taichi-dev/taichi"><img src="https://img.shields.io/github/stars/taichi-dev/taichi?label=Taichi lang&style=social"></a>
 <a href="https://www.youtube.com/channel/UCu-k1Wglo9Ll_o2j5Bxl4cw"><img src="https://img.shields.io/youtube/channel/views/UCu-k1Wglo9Ll_o2j5Bxl4cw?label=Taichi%20Graphics&style=social"></a>
-<a href="https://twitter.com/taichigraphics"><img src="https://img.shields.io/twitter/follow/taichigraphics?style=social"></a>
+<a href="https://twitter.com/taichi_lang"><img src="https://img.shields.io/twitter/follow/taichi_lang?style=social"></a>
 </p>
 
 <p align="center">
 <a href="https://www.zhihu.com/org/tai-ji-tu-xing"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-view-blue"></a>
 <a href="https://space.bilibili.com/1779922645"><img src="https://img.shields.io/badge/Bilibili-view-blue"></a>
-<a href="https://join.slack.com/t/taichicommunity/shared_invite/zt-14ic8j6no-Fd~wKNpfskXLfqDr58Tddg"><img src="https://img.shields.io/badge/join-us%20on%20slack-gray.svg?longCache=true&logo=slack&colorB=red"></a>
+<a href="https://discord.gg/f25GRdXRfg"><img alt="discord invitation link" src="https://dcbadge.vercel.app/api/server/f25GRdXRfg?style=flat"></a>
 
 </p>   
 
@@ -86,6 +86,9 @@ Taichi Math Playground
 
 - [DiffTaichi](https://github.com/taichi-dev/difftaichi) - Differentiable Programming for Physical Simulation.
 - [Stannum](https://github.com/ifsheldon/stannum) - Fusing Taichi into PyTorch.
+- [tinn](https://github.com/identxxy/tinn) - A Taichi implementation of the tiny-cuda-nn.
+- [PAC-NeRF](https://github.com/xuan-li/PAC-NeRF) - Physics Augmented Continuum Neural Radiance Fields for Geometry-Agnostic System Identification.
+
 
 ### **Optics**
 ![](optics-jpg/cameray.jpg)
@@ -148,6 +151,11 @@ Chinoxel
 - [Taichi SDF toy](https://github.com/knightyFF/Taichi-SDF-toy) - Messing with Taichi voxel challenge renderer in order to "learn" some Python and Taichi.
 - [Ti-raytrace](https://github.com/lyd405121/ti-raytrace) - A ray-tracing renderer implemented in Taichi.
 - [Taichi ray tracing](https://github.com/erizmr/taichi_ray_tracing) - A few Ray Tracing demos powered by Taichi.
+- [Ray Tracing in One Weekend](https://github.com/bsavery/ray-tracing-one-weekend-taichi) - A fast python implementation of Ray Tracing in One Weekend using python and Taichi.
+- [Taichi_volume_rendering](https://github.com/xiaobo2014/taichi_volume_rendering) - A simple volumetric renderer for medical images.
+- [Facet](https://github.com/peng-bo/facet) - A Fast diamond Cut Estimator powered by Taichi.
+- [whycode](https://github.com/ElonKou/whycode) - A Taichi hackathon repo, use Taichi to achieve some visual effects.
+- [RayTracingPBR](https://github.com/HK-SHAO/RayTracingPBR) - Ray Tracing PBR for Taichi Hackathon 2022.
 
 
 ### **Robotics**
@@ -157,6 +165,8 @@ Chinoxel
 - [PlasticineLab](https://github.com/iquibalamhm/plasticine-lab-cmu) - A Soft-Body Manipulation Benchmark with Differentiable Physics.
 - [TaichiGAME](https://github.com/maksyuki/TaichiGAME) - A lightweight simulation engine in motion planning and control research fields.
 - [TaichiSLAM](https://github.com/xuhao1/TaichiSLAM) - This project is a 3D Dense mapping backend library of SLAM based on Taichi, designed for the aerial swarm.
+- [Tiouch](https://github.com/OkifuZ/Tiouch) - This project allows you to use a Touch Haptic Device to grasp and throw geometric objects in Unity. The objects are modeled by soft bodies and are implemented in Taichi.
+- [taichi-hackathon-akinasan](https://github.com/houkensjtu/taichi-hackathon-akinasan) - A self-driving car powered by Taichi.
 
 
 ### **Simulation**
@@ -238,9 +248,16 @@ Taichi fvm2d fluid ns
 - [Taichi Titanic 188](https://github.com/runck/Taichi_Titanic188) - Two fun games created with the MPM method: The brick game and the iceberg crash simulation.
 - [Taichi Tetris](https://github.com/yuanming-hu/taichi_tetris) - A Tetris game with soft-body simulation implementing the MPM method.
 - [Ti NBody](https://github.com/xuyanwen2012/ti_nbody) - N-Body simulation written in Taichi.
-
-  
-
+- [FEMcy](https://github.com/mo-hanxuan/FEMcy) - A finite element solver based on Taichi, being parallel (CPU/GPU), portable and open-source.
+- [TaichiDEM](https://github.com/Yihao-Shi/TaichiDEM/) - A high performance objected-oriented Discrete Element Method (DEM) simulator in Taichi.
+- [Taichi-BEM](https://github.com/GeCao/taichi-BEM) - A Taichi BEM solver.
+- [BlackHoleRayMarching](https://github.com/theAfish/BlackHoleRayMarching) - A black hole simulation based on general relativity theory.
+- [Acube](https://github.com/Ethan-Hu-min/Acube) - A game about cutting and moving the cubes, based on mpm.
+- [tiMusicFluid](https://github.com/chunleili/tiMusicFluid) - Make fluid dance with the music. A fun fluid simulation based on Taichi.
+- [Taichi_Gravity_Sketch](https://github.com/chaoren2357/Taichi_Gravity_Sketch) - A drawing game based on Taichi, using gravity as the brush, and the universe as a canva.
+- [TiBox2d](https://github.com/Wimacs/TiBox2d) - Game oriented 2d physics engine made by Taichi.
+- [taichi_dem](https://github.com/Denver-Pilphis/taichi_dem) - A minimal DEM simulation demo written in Taichi.
+- [SPH-Fluid-Simulation](https://github.com/sillsill777/SPH-Fluid-Simulation) - Smoothed Particle Hydrodynamics implementation with Python.
 
 
 ### **Voxel Art**
@@ -314,6 +331,7 @@ Half Broken
 - [Voxel My Desktop](https://github.com/neozhaoliang/voxel-challenge) - A cool voxel-style computer desk.
 - [Voxel Taichi](https://github.com/houkensjtu/qbao_voxel_art) -  A voxel-style Taichi logo.
 - [You are not alone](https://github.com/lyd405121/ti-voxel-challege) - Using SDF function to create a rabbit and other stuff.
+- [voxel-windmill](https://github.com/wenqi-wang20/voxel-windmill) - A simple rendering project in Taichi language.
 
 
 ## Courses
